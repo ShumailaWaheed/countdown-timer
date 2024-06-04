@@ -11,13 +11,12 @@
     "@types/node-notifier": "^8.0.5",
     "@types/play-sound": "^1.1.2"
   },
-  "name": "sw6rz-countdown-timer",
+  "name": "sw6rz-cli-countdown-timer",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "bin": {
-    "count-down-timer-2": "index.js"
-  },
+  "bin": "index.js",
+      
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
